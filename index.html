@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Modal Popup Demo</h1>
+        <button class="open-btn" id="openModal">Open Modal</button>
+    </div>
+
+    <!--Modal Structure-->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal"> 
+            <div class="modal-header">
+                <h2>Welcome</h2>
+                <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>This is a simple modal popup example. You can use modals to display important information, forms, or any content that
+            requires user attention.</p>
+            <p style="margin-top: 15px;">Click the × button, Cancel button, or click outside the modal to close it.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn-secondary" id="cancelBtn">Cancel</button>
+            <button class="btn-primary" id="confirmBtn">Confirm</button>
+        </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
