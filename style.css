@@ -136,7 +136,7 @@ h1 {
 }
 
 /*show modal when active*/
-.modal-overlay:active {
+.modal-overlay.active {
     display: block;
 }
 
